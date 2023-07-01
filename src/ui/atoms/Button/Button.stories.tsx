@@ -6,9 +6,9 @@ type Story = StoryObj<T>;
 
 export default {
   component: Button,
-  args: {}
+  args: {
+    label: '送信'
+  }
 } as Meta<T>
 
 export const Default : Story = {}
-
-

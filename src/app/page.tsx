@@ -1,5 +1,5 @@
-import { css } from '../styled-system/css'
-import Button from '../ui/atoms/Button/Button'
+import { css } from '@/styled-system/css'
+import Button from '@/ui/atoms/Button/Button'
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
         fontWeight: 'bold',
       })}>test
       </div>
-      <Button />
+      <Button label={'送信'} />
     </main>
   )
 }

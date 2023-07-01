@@ -1,9 +1,13 @@
 import { css } from '../../../styled-system/css'
 
 
-const Button = () => {
+type Props = {
+  label : string
+}
+
+const Button = (props : Props) => {
   return (
-    <button className={css({backgroundColor: 'red'})}>ぼたん</button>
+    <button className={css({backgroundColor: 'red'})}>{props.label}</button>
   )
 }
 
